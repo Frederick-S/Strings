@@ -4,5 +4,5 @@ before_build:
 build_script:
   - dotnet build
 test_script:
-  - dotnet test /p:CollectCoverage=true
-  - codecov -f ./Strings.Tests/coverage.json
+  - dotnet test --collect:"XPlat Code Coverage"
+  - codecov -f ./Strings.Tests/TestResults/**/coverage.cobertura.xml
