@@ -5,4 +5,4 @@ build_script:
   - dotnet build
 test_script:
   - dotnet test --collect:"XPlat Code Coverage"
-  - codecov -f ./Strings.Tests/TestResults/**/coverage.cobertura.xml
+  - codecov -f ./Strings.Tests/TestResults/coverage.cobertura.xml
