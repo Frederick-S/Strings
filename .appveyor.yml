@@ -1,0 +1,6 @@
+image: Visual Studio 2019
+before_build:
+  - choco install codecov
+test_script:
+  - dotnet test /p:CollectCoverage=true
+  - codecov -f ./Strings.Tests/TestResults
