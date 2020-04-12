@@ -1,1 +1,5 @@
-# Strings
+# Strings [![Build Status](https://travis-ci.org/Frederick-S/Strings.svg?branch=master)](https://travis-ci.org/Frederick-S/Strings) [![Build status](https://ci.appveyor.com/api/projects/status/oqg0ivk1cvrvkf4f/branch/master?svg=true)](https://ci.appveyor.com/project/Frederick-S/strings/branch/master) [![codecov](https://codecov.io/gh/Frederick-S/Strings/branch/master/graph/badge.svg)](https://codecov.io/gh/Frederick-S/Strings)
+String utils for command line.
+
+## License
+[MIT](LICENSE)
