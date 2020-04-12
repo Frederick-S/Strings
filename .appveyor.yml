@@ -1,0 +1,8 @@
+image: Visual Studio 2019
+before_build:
+  - choco install codecov
+build_script:
+  - dotnet build
+test_script:
+  - dotnet test --collect:"XPlat Code Coverage"
+  - codecov -f ./Strings.Tests/TestResults/**/coverage.cobertura.xml
