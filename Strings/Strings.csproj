@@ -12,8 +12,9 @@
     <Product />
     <Description>String utils for command line.</Description>
     <Copyright>MIT</Copyright>
-    <PackageProjectUrl>git@github.com:Frederick-S/Strings.git</PackageProjectUrl>
+    <PackageProjectUrl>https://github.com/Frederick-S/Strings</PackageProjectUrl>
     <RepositoryUrl>git@github.com:Frederick-S/Strings.git</RepositoryUrl>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
   </PropertyGroup>
 
   <ItemGroup>
@@ -22,6 +23,13 @@
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
   </ItemGroup>
 
 </Project>
