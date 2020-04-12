@@ -2,10 +2,14 @@
 String utils for command line.
 
 ## Installation
+```
 dotnet tool install --global Strings
+```
 
 ## Update
+```
 dotnet tool update -g Strings
+```
 
 ## Usage
 ```
