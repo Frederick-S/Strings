@@ -13,9 +13,9 @@ dotnet tool update -g Strings
 
 ## Usage
 ```
-su [option] [string]
+sutil [option] [string]
 
-su --lu "Hello World" // Convert to lower case and underscore: hello_world
+sutil --lu "Hello World" // Convert to lower case and underscore: hello_world
 ```
 
 ## License
