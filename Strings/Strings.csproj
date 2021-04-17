@@ -3,7 +3,7 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <PackAsTool>true</PackAsTool>
-    <ToolCommandName>su</ToolCommandName>
+    <ToolCommandName>sutil</ToolCommandName>
     <TargetFramework>net5.0</TargetFramework>
     <TreatWarningsAsErrors>True</TreatWarningsAsErrors>
     <NoWarn>$(NoWarn);SA0001;SA1200;SA1600;SA1633;</NoWarn>
@@ -15,6 +15,7 @@
     <PackageProjectUrl>https://github.com/Frederick-S/Strings</PackageProjectUrl>
     <RepositoryUrl>git@github.com:Frederick-S/Strings.git</RepositoryUrl>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <PackageVersion>1.0.1</PackageVersion>
   </PropertyGroup>
 
   <ItemGroup>
